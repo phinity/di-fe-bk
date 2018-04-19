@@ -1,17 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
+import { SearchbarComponent } from './searchbar/searchbar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchbarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MDBBootstrapModule.forRoot()
   ],
+  schemas: [ NO_ERRORS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })
