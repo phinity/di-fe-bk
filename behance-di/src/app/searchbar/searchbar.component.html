@@ -1,6 +1,6 @@
 <form>
   <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Search Behance" aria-label="Search Behance" aria-describedby="basic-addon2">
+    <input type="text" class="form-control" placeholder="Search Behance" aria-label="Search Behance" aria-describedby="basic-addon2" (input)="onSearchChange($event.target.value)">
     <div class="input-group-append">
       <button class="btn btn-outline-secondary" type="button">Search</button>
     </div>

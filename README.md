@@ -27,3 +27,21 @@ You provide and code an original, usable, and contemporary design.
 You use your favorite front-end javascript framework to create the REST API requests, but do **not** use the Behance JS library itself. (Normally we don't like to re-invent the wheel, but in this case, we want to see how you wrangle the JSON directly.)
 
 You provide unit and/or end-to-end tests for your code.
+
+
+---
+
+
+process:
+- explored the test and behace api
+- created a pesonal adobe ID, as i've always used a company ID
+- tested query users with postman :: https://www.behance.net/dev/api/endpoints/2
+- forked project to personal github account
+- generated app
+- followed guides to install bootstrap 4, ng-bootstrap
+  https://coursetro.com/posts/code/132/Material-Design-Bootstrap-4-and-Angular-5-Tutorial---MdBootstrap
+  https://ng-bootstrap.github.io/#/getting-started
+- setup simple api
+  https://www.thetechieshouse.com/angular-4-rest-api-with-http-5-minutes/
+
+

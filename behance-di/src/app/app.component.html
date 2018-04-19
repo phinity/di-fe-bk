@@ -1,5 +1,4 @@
 
-
     <header>
       <div class="navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
@@ -17,7 +16,7 @@
           <h1 class="jumbotron-heading">Search Behance</h1>
           <p class="lead text-muted">Find Creatives, See Their Creativity</p>
           
-          <app-searchbar></app-searchbar>
+          <app-searchbar (data)="searchData($event)"></app-searchbar>
           
         </div>
       </section>
